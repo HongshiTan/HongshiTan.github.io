@@ -1,0 +1,45 @@
+# Site settings
+title:           TAN Hongshi (谭洪仕)'s Homepage
+description:    "Hongshi's Homepage"
+url:            "https://hongshitan.github.io"
+#baseurl:        "https://hongshitan.github.io/"
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         TAN Hongshi (谭洪仕)
+  url:          https://hongshitan.github.io
+  email:        hongshi@comp.nus.edu.sg
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+  - _includes
+
+
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  #- jemoji
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
+theme: jekyll-theme-slate

@@ -1,0 +1,82 @@
+---
+layout: post
+title: "All Publications"
+permalink: /publications/
+---
+
+<div class="tags">
+  <div class="tags-clouds">
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+    {% if tag[0] == "Paper" %}
+      <a href="#{{ tag[0] }}">Research Papers</a>
+    {% elsif tag[0] == "PatentA" %}
+      <a href="#{{ tag[0] }}">Patents (U.S.)</a>
+    {% elsif tag[0] == "PatentC" %}
+      <a href="#{{ tag[0] }}">Patents (China)</a>
+    {% elsif tag[0] == "PatentB" %}
+      <a href="#{{ tag[0] }}">Patents (International/PCT)</a>
+    {% else %}
+      {% continue %}
+    {% endif %}
+    <!-- <a href="#{{ tag[0] }}">{{ tag[0] }}</a> --->
+    {% endfor %}
+  </div>
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+  {% if tag[0] == "Test" %}
+    {% continue %}
+  {% endif %}
+  <div class="tags-item" id="{{ tag[0] }}">
+    <svg
+      class="tags-item-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="feather feather-tag"
+    >
+      <path
+        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
+      ></path>
+      <line x1="7" y1="7" x2="7.01" y2="7"></line>
+    </svg>
+    <!-- <h2 class="tags-item-label">{{ tag[0] }}</h2> --->
+    {% if tag[0] == "Paper" %}
+      <h2 class="tags-item-label">Research Papers</h2>
+    {% elsif tag[0] == "PatentA" %}
+      <h2 class="tags-item-label">Patents (U.S.)</h2>
+    {% elsif tag[0] == "PatentC" %}
+      <h2 class="tags-item-label">Patents (China)</h2>
+    {% elsif tag[0] == "PatentB" %}
+      <h2 class="tags-item-label">Patents (International/PCT)</h2>
+    {% else %}
+      {% continue %}
+    {% endif %}
+    {% for post in tag[1] %}
+    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+      <div>
+        <span class="tags-post-title">{{ post.title }}</span>
+        <div class="tags-post-line"></div>
+      </div>
+      <span class="tags-post-meta">
+        <time datetime="{{ post.date }}">
+          {{ post.date | date:"%Y-%m-%d" }}
+        </time>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
+
+
+
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ozxQP9sjKI9-mpkB-mwdvNPNu7L4rBxWqJV6JxmntZU&t=n&cl=ffffff&w=2&co=ffffff&cmo=D7BDE2&cmn=A9CCE3&ct=cdd4d9&cl=707B7C"></script>
+

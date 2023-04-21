@@ -1,0 +1,12 @@
+---
+layout: post
+title: "ThunderGP: Resource-Efficient Graph Processing Framework on FPGAs with HLS"
+author: "Xinyu Chen, Feng Cheng, <b>Hongshi Tan</b>, Yao Chen, Bingsheng He, Weng-Fai Wong and Deming Chen."
+conf_full: "ACM Transactions on Reconfigurable Technology and Systems."
+desp: "Invited journal paper accepted by "
+conf: "<b>ACM TRETS</b>."
+tags: "Paper"
+---
+
+## Abstract
+FPGA has been an emerging computing infrastructure in datacenters benefiting from fine-grained parallelism, energy efficiency, and reconfigurability. Meanwhile, graph processing has attracted tremendous interest in data analytics, and its performance is in increasing demand with the rapid growth of data. Many works have been proposed to tackle the challenges of designing efficient FPGA-based accelerators for graph processing. However, the largely overlooked programmability still requires hardware design expertise and sizable development efforts from developers. ThunderGP, an HLS-based graph processing framework on FPGAs, is hence proposed to close the gap, with which developers could enjoy high performance of FPGA-accelerated graph processing by writing only a few high-level functions with no knowledge of the hardware. ThunderGP adopts the gather-apply-scatter (GAS) model as the abstraction of various graph algorithms and realizes the model by a build-in highly parallel and memory-efficient accelerator template. With high-level functions as inputs, ThunderGP automatically explores massive resources of multiple super-logic regions (SLRs) of modern FPGA platforms to generate and deploy accelerators, as well as schedule tasks for them. While ThunderGP on DRAM-based platforms is memory bandwidth bounded, recent high bandwidth memory (HBM) brings large potentials to performance. However, the system bottleneck shifts from memory bandwidth to resource consumption on HBM-enabled platforms. Therefore, we further propose to improve resource efficiency of ThunderGP to utilize more memory bandwidth from HBM. We conduct evaluation with seven common graph applications and nineteen graphs. ThunderGP on DRAM-based hardware platforms provides 1.9 × ∼ 5.2 × improvement on bandwidth efficiency over the state-of-the-art, while ThunderGP on HBM-based hardware platforms delivers up to 5.2 × speedup over the state-of-the-art RTL-based approach. This work is open-sourced on [Github](https://github.com/Xtra-Computing/ThunderGP.)

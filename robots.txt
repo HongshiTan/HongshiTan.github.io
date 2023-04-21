@@ -1,0 +1,4 @@
+Sitemap: https://hongshitan.github.io/sitemap.xml
+
+User-agent: *
+Allow: /
