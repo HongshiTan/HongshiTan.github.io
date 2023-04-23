@@ -12,5 +12,4 @@ tags: "Paper"
 ## Abstract
 To appear
 
-<a href="/pdfs/SIGMOD23.pdf">
-LightRW: FPGA Accelerated Graph Dynamic Random Walks</a>,
+<a href="/pdfs/SIGMOD23.pdf">[Paper]</a>

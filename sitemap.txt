@@ -1,6 +1,6 @@
 https://hongshitan.github.io/index.html
-https://hongshitan.github.io/about/index.html
-https://hongshitan.github.io/publications/index.html
+https://hongshitan.github.io/about/
+https://hongshitan.github.io/publications/
 https://hongshitan.github.io/2022-07-21/Paper-ReGraph_Micro
 https://hongshitan.github.io/2022-03-05/Paper-ThunderGP_TRETS
 https://hongshitan.github.io/2021-12-05/Paper-DAC
