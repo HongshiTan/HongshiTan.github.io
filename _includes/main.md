@@ -186,6 +186,18 @@ His research interests include high performance computing with special emphasis 
   </ul>
 </ul>  
 
+<div class="tags">
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  <div class="tags-item" id="{{ tag[0] }}">
+      {% if tag[0] == "Project" %} 
+      <h2 class="tags-item-label">PROJECTS</h2>
+      {% else %}
+        {% continue %}  
+      {% endif %}
+  </div>
+{% endfor %}
+</div>
 
 
 <div class="tags">
