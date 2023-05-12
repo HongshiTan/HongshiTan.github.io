@@ -9,8 +9,8 @@ footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 980px;
-  width: 80%;
+  max-width: 870px;
+  width: 85%;
 }
 
 .nav {
@@ -89,4 +89,76 @@ footer {
     color: $default-color;
     font-size: .8rem;
   }
+}
+
+// Place a p tag in between 2 empty divs.
+.keyline-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  p {
+    margin: 0 1em;
+  }
+
+  div {
+    flex-grow: 1;
+    background-color: var(--accent-color);
+    content: "";
+    height: 1px;
+  }
+}
+
+ul.sidebar li {
+  list-style-type: none;
+  border-left: 1px solid var(--accent-color);
+  margin-bottom: 1em;
+}
+
+.keyline-bottom {
+  border-bottom: 1px solid var(--accent-color);
+  line-height: 1.2;
+  margin-bottom: 0.6em;
+}
+
+.skinny-center-justified {
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+ul.strong-description {
+  li {
+    display: flex;
+  }
+
+  strong {
+    padding-right: .8em;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  p {
+    flex-grow: 1;
+    padding-left: .8em;
+    border-left: 1px solid var(--accent-color);
+  }
+}
+
+article {
+  max-width: 38em;
+  margin: 3em auto;
+  padding: 0 1em;
+}
+
+article > header {
+  margin-bottom: 2em;
+
+  h1, h2 {
+    text-align: center;
+  }
+}
+
+article > section:not(:last-child) {
+  margin-bottom: 3em;
 }
