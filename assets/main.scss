@@ -3,3 +3,11 @@
 ---
 
 @import 'tale';
+
+:root {
+  --accent-color: {{ site.css.accent-color }};
+  --accent-hover-color: {{ site.css.accent-hover-color }};
+  --background-color: {{ site.css.background-color }};
+  --foreground-color: {{ site.css.foreground-color }};
+  --light-text-color: {{ site.css.light-text-color }};
+}

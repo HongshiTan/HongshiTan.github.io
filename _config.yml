@@ -43,3 +43,14 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
 theme: jekyll-theme-slate
+
+picture:
+  source: imgs/source_files
+  output: imgs/generated
+
+css:
+  accent-color: '#979797'
+  accent-hover-color: '#220043'
+  background-color: '#FAFAFA'
+  foreground-color: '#444'
+  light-text-color: '#636363'

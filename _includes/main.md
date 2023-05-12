@@ -4,7 +4,7 @@
 
 <br>
 <br>
-Hongshi TAN currently is a Ph.D. candidate at the School of Computing, <b>National University of Singapore</b>, supervised by 
+Hongshi TAN currently is a Ph.D. student at the School of Computing, <b>National University of Singapore</b>, supervised by 
 Prof. <a href="https://www.comp.nus.edu.sg/~hebs/" style="color:#283747;"><b>Bingsheng He</b></a>
 and 
 Prof. <a href="https://www.comp.nus.edu.sg/~wongwf/" style="color:#283747;"><b>Weng-Fai Wong</b></a>. 
@@ -187,11 +187,35 @@ His research interests include high performance computing with special emphasis 
 </ul>  
 
 <div class="tags">
+<h2 class="tags-item-label">PROJECTS</h2>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
   <div class="tags-item" id="{{ tag[0] }}">
       {% if tag[0] == "Project" %} 
-      <h2 class="tags-item-label">PROJECTS</h2>
+      <ul class="project-showcase">
+        {% for post in tag[1] %} 
+        <li>
+          {% if post.image %}
+            {% picture 
+              blog
+              {{ post.image.url }} 
+              --alt {{ post.image.alt }} 
+              --picture class="showcase-image" 
+              --link {{ post.url }}
+            %}
+          {% endif %}
+          <div class="name">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <p class="muted">{{ post.date | date_to_long_string }}</p>
+          </div>
+          <div class="description">
+            <p class="muted">
+              {{ post.summary }}
+            </p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
       {% else %}
         {% continue %}  
       {% endif %}

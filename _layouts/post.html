@@ -24,6 +24,17 @@ layout: default
   </div>
   <h4 class="post-titleh2">{{ page.title }}</h4>
   <div class="post-line"></div>
+  {% if page.image %}
+  <figure>
+    {%
+      picture
+      blog {{ page.image.url }}
+      --alt="{{ page.image.alt }}"
+      --a data-no-swup="true"
+    %}
+    <figcaption>{{ page.image.caption }}</figcaption>
+  </figure>
+  {% endif %}
   {{ content }}
 </div>
 

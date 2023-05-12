@@ -144,3 +144,21 @@ ul.strong-description {
     border-left: 1px solid var(--accent-color);
   }
 }
+
+article {
+  max-width: 38em;
+  margin: 3em auto;
+  padding: 0 1em;
+}
+
+article > header {
+  margin-bottom: 2em;
+
+  h1, h2 {
+    text-align: center;
+  }
+}
+
+article > section:not(:last-child) {
+  margin-bottom: 3em;
+}
