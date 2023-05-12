@@ -195,12 +195,14 @@ His research interests include high performance computing with special emphasis 
   <div class="tags-item" id="{{ tag[0] }}">
       {% if tag[0] == "Project" %} 
       <ul class="project-showcase">
-        {% for post in tag[1] %} 
         <li>
+        {% for post in tag[1] %} 
           {% if post.image %}
             {% picture 
-              main_page
+              main_page 
               {{ post.image.url }} 
+              4:3
+              center 
               --alt {{ post.image.alt }} 
               --picture class="showcase-image" 
               --link {{ post.url }}
