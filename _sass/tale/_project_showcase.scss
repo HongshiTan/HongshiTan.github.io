@@ -4,7 +4,7 @@ ul.project-showcase {
   & > li {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
   }
 
   .name, .description {
@@ -13,7 +13,7 @@ ul.project-showcase {
   }
 
   .name {
-    flex-basis: 200px;
+    flex-basis: 80px;
     flex-grow: 1;
     padding-right: 2em;
     display: flex;
@@ -50,7 +50,7 @@ ul.project-showcase {
   }
 }
 
-@media(max-width: 670px) {
+@media(max-width: 600px) {
   // 670 px because that's where flex-wrap kicks in for the description and name (both their flex basis numbers plus article padding)
   // It's a magic number, I should find a better way to do this.  
   ul.project-showcase {

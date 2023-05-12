@@ -188,6 +188,8 @@ His research interests include high performance computing with special emphasis 
 
 <div class="tags">
 <h2 class="tags-item-label">PROJECTS</h2>
+<br>
+<br>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
   <div class="tags-item" id="{{ tag[0] }}">
@@ -197,13 +199,15 @@ His research interests include high performance computing with special emphasis 
         <li>
           {% if post.image %}
             {% picture 
-              blog
+              main_page
               {{ post.image.url }} 
               --alt {{ post.image.alt }} 
               --picture class="showcase-image" 
               --link {{ post.url }}
             %}
           {% endif %}
+        </li>
+        <li>
           <div class="name">
             <a href="{{ post.url }}">{{ post.title }}</a>
             <p class="muted">{{ post.date | date_to_long_string }}</p>

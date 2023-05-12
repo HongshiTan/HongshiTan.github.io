@@ -31,6 +31,10 @@ sudo apt install ruby
 sudo apt install ruby-bundler
 sudo apt install ruby-dev
 
+sudo apt install libvips-dev
+sudo gem install ruby-vips -v 2.0.17
+
+
 
 ```
 ### Ruby Gem method

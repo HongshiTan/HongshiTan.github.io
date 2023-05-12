@@ -40,7 +40,16 @@ presets:
     formats: [webp, original]
     widths: [500, 600, 700, 800, 900, 1000, 1200, 1600]
     sizes:
-      full_width: 862px
+      full_width: 800px
+    size: calc(100vw - 18px)
+    nomarkdown: false
+    link_source: true
+
+  main_page:
+    formats: [webp, original]
+    widths: [500, 600, 700, 800, 900, 1000, 1200, 1600]
+    sizes:
+      full_width: 700px
     size: calc(100vw - 18px)
     nomarkdown: false
     link_source: true
