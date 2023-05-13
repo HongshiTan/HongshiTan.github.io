@@ -74,7 +74,7 @@ His research interests include high performance computing with special emphasis 
 <ul>
    <a class="tags-post">
   <div>
-    <span class="tags-post-title">
+    <span class="tags-post-mtitle">
       <li>
         School of Computing, National University of Singapore
       </li>
@@ -91,7 +91,7 @@ His research interests include high performance computing with special emphasis 
   <br>
   <a class="tags-post">
   <div>
-    <span class="tags-post-title">
+    <span class="tags-post-mtitle">
       <li>
         School of Computing, National University of Singapore
       </li>
@@ -109,7 +109,7 @@ His research interests include high performance computing with special emphasis 
   <br>
   <a class="tags-post">
   <div>
-    <span class="tags-post-title">
+    <span class="tags-post-mtitle">
       <li>
         School of Automotive Engineering, Harbin Institute of Technology
       </li>
@@ -152,7 +152,7 @@ His research interests include high performance computing with special emphasis 
 --->
   <a class="tags-post">
   <div>
-    <span class="tags-post-title">
+    <span class="tags-post-mtitle">
       <li>
         Shenzhen DJI Technology Co., Ltd
       </li>
@@ -170,7 +170,7 @@ His research interests include high performance computing with special emphasis 
   <br>
   <a class="tags-post">
   <div>
-    <span class="tags-post-title">
+    <span class="tags-post-mtitle">
       <li>
         Shanghai Engineering Center for Microsatellites
       </li>
@@ -192,40 +192,40 @@ His research interests include high performance computing with special emphasis 
 <br>
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
-  <div class="tags-item" id="{{ tag[0] }}">
-      {% if tag[0] == "Project" %} 
-      <ul class="project-showcase">
-        <li>
-        {% for post in tag[1] %} 
-          {% if post.image %}
-            {% picture 
-              main_page 
-              {{ post.image.url }} 
-              4:3
-              center 
-              --alt {{ post.image.alt }} 
-              --picture class="showcase-image" 
-              --link {{ post.url }}
-            %}
-          {% endif %}
-        </li>
-        <li>
-          <div class="name">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <p class="muted">{{ post.date | date_to_long_string }}</p>
-          </div>
-          <div class="description">
-            <p class="muted">
-              {{ post.summary }}
-            </p>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-      {% else %}
-        {% continue %}  
+  {% if tag[0] == "Project" %} 
+    {% for post in tag[1] %}
+      {% if post.image %}
+        <ul class="project-image-showcase">
+          {% picture 
+            main_page 
+            {{ post.image.url }} 
+            4:3
+            center 
+            --alt {{ post.image.alt }} 
+            --link {{ post.url }}
+          %}
+        </ul>
+        <ul class="project-showcase">
+          <li>
+            <div class="name">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <p class="tags-post-meta">{{ post.date | date_to_long_string }}</p>
+              </div>
+              <div class="description">
+                <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+                  <div>
+                    {{ post.summary }}
+                    <div class="tags-post-line"></div>
+                  </div>
+                </a>
+            </div>
+          </li>
+        </ul>
       {% endif %}
-  </div>
+    {% endfor %}
+  {% else %}
+    {% continue %}  
+  {% endif %}
 {% endfor %}
 </div>
 

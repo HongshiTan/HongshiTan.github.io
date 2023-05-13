@@ -55,10 +55,19 @@
     justify-content: space-between;
     padding: 5px 0;
 
-    &-title {
+    &-mtitle {
       color: $default-color;
       text-decoration: none;
       white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    &-title {
+      color: $default-color;
+      text-decoration: none;
+      word-wrap: break-word;      /* IE 5.5-7 */
+      white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+      white-space: pre-wrap;      /* current browsers */
       overflow: hidden;
       text-overflow: ellipsis;
     }

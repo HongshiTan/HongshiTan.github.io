@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 title: "All Publications"
 permalink: /publications/
 ---
@@ -25,6 +25,9 @@ permalink: /publications/
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
   {% if tag[0] == "Test" %}
+    {% continue %}
+  {% endif %}
+  {% if tag[0] == "Project" %}
     {% continue %}
   {% endif %}
   <div class="tags-item" id="{{ tag[0] }}">
