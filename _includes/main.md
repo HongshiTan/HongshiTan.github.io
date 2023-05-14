@@ -76,12 +76,14 @@ His research interests include high performance computing with special emphasis 
   <div>
     <span class="tags-post-mtitle">
       <li>
-        School of Computing, National University of Singapore
+        School of Computing, <br class="mobile-break">National University of Singapore
       </li>
     </span>
     <div class="tags-post-line"></div>
   </div>
     <span class="tags-post-meta">
+      <br class="mobile-break">
+      <br class="mobile-break">
       Jul 2022&nbsp - &nbspPresent
     </span>
   </a>
@@ -93,12 +95,14 @@ His research interests include high performance computing with special emphasis 
   <div>
     <span class="tags-post-mtitle">
       <li>
-        School of Computing, National University of Singapore
+        School of Computing, <br class="mobile-break">National University of Singapore
       </li>
     </span>
     <div class="tags-post-line"></div>
   </div>
     <span class="tags-post-meta">
+      <br class="mobile-break">
+      <br class="mobile-break">
       Oct 2019 - Jul 2022
     </span>
   </a>
@@ -111,12 +115,14 @@ His research interests include high performance computing with special emphasis 
   <div>
     <span class="tags-post-mtitle">
       <li>
-        School of Automotive Engineering, Harbin Institute of Technology
+        School of Automotive Engineering, <br class="mobile-break">Harbin Institute of Technology
       </li>
     </span>
     <div class="tags-post-line"></div>
   </div>
     <span class="tags-post-meta">
+      <br class="mobile-break">
+      <br class="mobile-break">
       Sep 2012 - Jun 2016
     </span>
   </a>
@@ -160,6 +166,7 @@ His research interests include high performance computing with special emphasis 
     <div class="tags-post-line"></div>
   </div>
     <span class="tags-post-meta">
+      <br class="mobile-break">
       Jan 2016 - Mar 2019
     </span>
   </a>
@@ -178,6 +185,7 @@ His research interests include high performance computing with special emphasis 
     <div class="tags-post-line"></div>
   </div>
     <span class="tags-post-meta">
+      <br class="mobile-break">
       Nov 2015 - Jan 2016
     </span>
   </a>
