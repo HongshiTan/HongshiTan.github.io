@@ -14,6 +14,10 @@ footer,
 }
 
 .nav {
+  margin: 0 auto;
+  max-width: 4000px;
+  min-width: 700px;
+  width: 100%;
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
 
@@ -66,7 +70,7 @@ footer,
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 780px) {
   .nav {
     &-container {
       text-align: left;
@@ -81,6 +85,10 @@ footer,
 }
 
 footer {
+  margin: 0 auto;
+  max-width: 4000px;
+  min-width: 700px;
+  width: 100%;
   font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;

@@ -21,7 +21,9 @@ author: "TAN Hongshi (谭洪仕)"
 <i class="fas fa-cat" aria-hidden="true" style="font-size:36px"></i>
 &thinsp; &thinsp; &thinsp;
 <i class="fas fa-atom" aria-hidden="true" style="font-size:36px"></i>
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ozxQP9sjKI9-mpkB-mwdvNPNu7L4rBxWqJV6JxmntZU&t=n&cl=ffffff&w=2&co=ffffff&cmo=D7BDE2&cmn=A9CCE3&ct=cdd4d9&cl=707B7C"></script>
+
+
+<br>
 
 <h2 class="tags-item-label">POSTS</h2>
 

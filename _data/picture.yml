@@ -59,7 +59,7 @@ presets:
     formats: [webp, original]
     widths: [500, 600, 700, 800, 900, 1000, 1200, 1600]
     sizes:
-      full_width: 600px
+      full_width: 500px
     size: calc(100vw - 18px)
     nomarkdown: false
     link_source: true
