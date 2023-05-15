@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Library
-        run: sudo apt install  libvips-dev
+        run: sudo apt update && sudo apt install -y libvips-dev
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Ruby
