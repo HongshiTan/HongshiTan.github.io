@@ -12,6 +12,7 @@ He was an embedded system engineer at <a href="https://www.dji.com/" style="colo
 <br>
 <br>
 His research interests include high performance computing with special emphasis on FPGA-based heterogeneous systems for graph processing and graph representation learning.
+He is responsible for the NUS' Heterogeneous Accelerated Compute Cluster (HACC) under AMD University Program.
 <br>
 <br>
 
@@ -194,48 +195,7 @@ His research interests include high performance computing with special emphasis 
   </ul>
 </ul>  
 
-<div class="tags">
-<h2 class="tags-item-label">PROJECTS</h2>
-<br>
-<br>
-{% assign sorted_tags = site.tags | sort %}
-{% for tag in sorted_tags %}
-  {% if tag[0] == "Project" %} 
-    {% for post in tag[1] %}
-      {% if post.image %}
-        <ul class="project-image-showcase">
-          {% picture 
-            main_page 
-            {{ post.image.url }} 
-            4:3
-            center 
-            --alt {{ post.image.alt }} 
-            --link {{ post.url }}
-          %}
-        </ul>
-        <ul class="project-showcase">
-          <li>
-            <div class="name">
-              <a href="{{ post.url }}">{{ post.title }}</a>
-              <p class="tags-post-meta">{{ post.date | date_to_long_string }}</p>
-              </div>
-              <div class="description">
-                <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
-                  <div>
-                    {{ post.summary }}
-                    <div class="tags-post-line"></div>
-                  </div>
-                </a>
-            </div>
-          </li>
-        </ul>
-      {% endif %}
-    {% endfor %}
-  {% else %}
-    {% continue %}  
-  {% endif %}
-{% endfor %}
-</div>
+
 
 
 <div class="tags">
@@ -311,4 +271,48 @@ His research interests include high performance computing with special emphasis 
     {% endfor %}
   </div>
   {% endfor %}
+</div>
+
+
+<div class="tags">
+<h2 class="tags-item-label">PROJECTS</h2>
+<br>
+<br>
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  {% if tag[0] == "Project" %} 
+    {% for post in tag[1] %}
+      {% if post.image %}
+        <ul class="project-image-showcase">
+          {% picture 
+            main_page 
+            {{ post.image.url }} 
+            4:3
+            center 
+            --alt {{ post.image.alt }} 
+            --link {{ post.url }}
+          %}
+        </ul>
+        <ul class="project-showcase">
+          <li>
+            <div class="name">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <p class="tags-post-meta">{{ post.date | date_to_long_string }}</p>
+              </div>
+              <div class="description">
+                <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+                  <div>
+                    {{ post.summary }}
+                    <div class="tags-post-line"></div>
+                  </div>
+                </a>
+            </div>
+          </li>
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% continue %}  
+  {% endif %}
+{% endfor %}
 </div>
