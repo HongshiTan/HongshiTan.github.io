@@ -173,7 +173,7 @@ He is responsible for the NUS' Heterogeneous Accelerated Compute Cluster (HACC) 
   </a>
   <ul>
     <li>Filght Control Embedded System Engineer (Top Five Ranked)</li>
-    <li><b>Leader</b> of Rader Embedded System Team</li>
+    <li><b>Leader</b> of Radar Embedded System Team</li>
   </ul>
   <br>
   <a class="tags-post">
