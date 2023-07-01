@@ -53,6 +53,7 @@ He is responsible for the NUS' Heterogeneous Accelerated Compute Cluster (HACC) 
 <h2 class="tags-item-label">RECENT NEWS</h2>
 
 <ul>
+  <li>Jun 2023: Invited to be <b>SIGMOD</b> ARI reviewer.</li>
   <li>Dec 2022: Invited to give a tutorial on <b>FPT 2022</b>.</li>
   <li>Nov 2022: One paper is accepted by <b>SIGMOD 2023</b>.</li>
   <li>Jul 2022: One paper is accepted by <b>MICRO 2022</b>.</li>
