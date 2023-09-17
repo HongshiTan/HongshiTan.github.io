@@ -12,7 +12,7 @@ He was an embedded system engineer at <a href="https://www.dji.com/" style="colo
 <br>
 <br>
 His research interests include high performance computing with special emphasis on FPGA-based heterogeneous systems for graph processing and graph representation learning.
-He is responsible for the NUS' Heterogeneous Accelerated Compute Cluster (HACC) under AMD University Program.
+He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="color:#283747;"><b>Heterogeneous Accelerated Compute Cluster at NUS (HACC)</b></a> under AMD University Program.
 <br>
 <br>
 
