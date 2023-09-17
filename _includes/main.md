@@ -246,13 +246,15 @@ He is responsible for the NUS' Heterogeneous Accelerated Compute Cluster (HACC) 
     <br>
     <br>
     {% for post in tag[1] %} 
-    <div>
-        <span class="tags-post-title">{{ post.author }}</span>
-        <div class="tags-post-line"></div>
-    </div>
     <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
-        <span class="tags-post-title"> {{ post.title }}</span>
+        <span class="tags-post-title">{{ post.title }}</span>
+        <div class="tags-post-line"></div>
+      </div>
+    </a>
+    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+      <div>
+        <span class="tags-post-title">{{ post.author }}</span>
         <div class="tags-post-line"></div>
       </div>
     </a>
