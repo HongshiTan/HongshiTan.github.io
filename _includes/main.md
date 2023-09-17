@@ -26,8 +26,12 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
 &thinsp; &thinsp; &thinsp;
 <a href="https://github.com/HongshiTan"><i class="fa fa-github" aria-hidden="true" style="font-size:36px"></i></a>
 &thinsp; &thinsp; &thinsp;
-<a href="https://lemuel.blog.csdn.net/"><i class="fa fa-rss" aria-hidden="true" style="font-size:36px"></i></a>
+<a href="https://blog.csdn.net/u011070641/"><i class="fa fa-rss" aria-hidden="true" style="font-size:36px"></i></a>
 &thinsp; &thinsp; &thinsp;
+<a href="https://www.flickr.com/people/190286502@N04/"><i class="fa fa-camera-retro" aria-hidden="true" style="font-size:36px"></i></a>
+&thinsp; &thinsp; &thinsp;
+
+
 
 </div>
 
@@ -90,7 +94,7 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
     </span>
   </a>
   <ul>
-    <li>Ph.D. student in <b>Computer Science</b></li>
+    <li>Ph.D. Student in <b>Computer Science</b></li>
   </ul> 
   <br>
   <a class="tags-post">
@@ -251,14 +255,10 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
         <span class="tags-post-title">{{ post.title }}</span>
         <div class="tags-post-line"></div>
       </div>
-    </a>
-    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
         <span class="tags-post-title">{{ post.author }}</span>
         <div class="tags-post-line"></div>
       </div>
-    </a>
-    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
         <span class="tags-post-title">{{ post.desp }}</span>
         <span class="tags-post-title">{{ post.conf }}</span>

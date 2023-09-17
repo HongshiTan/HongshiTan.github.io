@@ -12,7 +12,6 @@ author: "TAN Hongshi (谭洪仕)"
 <br>
 <br>
 
-<i class="fa fa-camera-retro" aria-hidden="true" style="font-size:36px"></i>
 &thinsp; &thinsp; &thinsp;
 <i class="fas fa-guitar" aria-hidden="true" style="font-size:36px"></i>
 &thinsp; &thinsp; &thinsp;
