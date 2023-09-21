@@ -255,10 +255,14 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
         <span class="tags-post-title">{{ post.title }}</span>
         <div class="tags-post-line"></div>
       </div>
+    </a>
+    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
         <span class="tags-post-title">{{ post.author }}</span>
         <div class="tags-post-line"></div>
       </div>
+    </a>
+    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
         <span class="tags-post-title">{{ post.desp }}</span>
         <span class="tags-post-title">{{ post.conf }}</span>
