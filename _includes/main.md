@@ -166,6 +166,24 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
   <div>
     <span class="tags-post-mtitle">
       <li>
+        ByteDance Ltd., Singapore
+      </li>
+    </span>
+    <div class="tags-post-line"></div>
+  </div>
+    <span class="tags-post-meta">
+      <br class="mobile-break">
+      Jul 2023 -  &nbspPresent
+    </span>
+  </a>
+  <ul>
+    <li>Internship in Large-scale Graph Neural Network System</li>
+  </ul>
+  <br>
+  <a class="tags-post">
+  <div>
+    <span class="tags-post-mtitle">
+      <li>
         Shenzhen DJI Technology Co., Ltd
       </li>
     </span>
