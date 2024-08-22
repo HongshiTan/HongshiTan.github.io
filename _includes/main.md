@@ -5,14 +5,12 @@
 <br>
 <br>
 Hongshi TAN currently is a Ph.D. student at the School of Computing, <b>National University of Singapore</b>, supervised by 
-Prof. <a href="https://www.comp.nus.edu.sg/~hebs/" style="color:#283747;"><b>Bingsheng He</b></a>
-and 
-Prof. <a href="https://www.comp.nus.edu.sg/~wongwf/" style="color:#283747;"><b>Weng-Fai Wong</b></a>. 
-He was an embedded system engineer at <a href="https://www.dji.com/" style="color:#283747;"> <b>Dept. of Flight Control, DJI</b> </a> and has proficient experiences on architectural design and implementation for FPGA-CPU heterogeneous systems. He led the embedded system team for developing the world first digital beamforming (DBF) frequency modulated continuous wave radar on agricultural drones. He was also interested in solving the real problems on system security area including firmware anti-hack and communication protection. The global navigation satellite system (GNSS) information signature scheme developed by him is the most critical component for flight safety and has been adopted in millions of DJI drones around the world.
-<br>
-<br>
+Prof. <a href="https://www.comp.nus.edu.sg/~hebs/" style="color:#283747;"><b>Bingsheng He</b></a> and Prof. <a href="https://www.comp.nus.edu.sg/~wongwf/" style="color:#283747;"><b>Weng-Fai Wong</b></a>. 
 His research interests include high performance computing with special emphasis on FPGA-based heterogeneous systems for graph processing and graph representation learning.
 He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="color:#283747;"><b>Heterogeneous Accelerated Compute Cluster at NUS (HACC)</b></a> under AMD University Program.
+<br>
+<br>
+He was an embedded system engineer at <a href="https://www.dji.com/" style="color:#283747;"> <b>Dept. of Flight Control, DJI</b> </a> and has proficient experiences on architectural design and implementation for FPGA-CPU heterogeneous systems. He led the embedded system team for developing the world first digital beamforming (DBF) frequency modulated continuous wave radar on agricultural drones. He was also interested in solving the real problems on system security area including firmware anti-hack and communication protection. The global navigation satellite system (GNSS) information signature scheme developed by him is the most critical component for flight safety and has been adopted in millions of DJI drones around the world.
 <br>
 <br>
 
