@@ -57,6 +57,7 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
 <h2 class="tags-item-label">RECENT NEWS</h2>
 
 <ul>
+  <li>Aug 2024: Received NUS <a href="https://api.accredible.com/v1/auth/invite?code=e56fb17b77cd1f2e713d&credential_id=7851dbf2-0b03-4f28-8626-599d34d80293&url=https%3A%2F%2Fcredentials.nus.edu.sg%2F7851dbf2-0b03-4f28-8626-599d34d80293&ident=aeea3256-b51a-41f3-853a-ed0aae1dbd8d" style="color:#283747;"><b>Research Achievement Award</b></a>.</li>
   <li>Jun 2023: Invited to be <b>SIGMOD</b> ARI reviewer.</li>
   <li>Dec 2022: Invited to give a tutorial on <b>FPT 2022</b>.</li>
   <li>Nov 2022: One paper is accepted by <b>SIGMOD 2023</b>.</li>
@@ -173,7 +174,7 @@ He is responsible for the <a href="https://www.amd-haccs.io/nus.html" style="col
   </div>
     <span class="tags-post-meta">
       <br class="mobile-break">
-      Jul 2023 -  &nbspPresent
+      Jul 2023 -  Jul 2024
     </span>
   </a>
   <ul>
