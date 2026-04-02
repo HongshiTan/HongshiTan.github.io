@@ -55,7 +55,7 @@ Hongshi was an embedded system engineer at <a href="https://www.dji.com/" style=
 <h2 class="tags-item-label">RECENT NEWS</h2>
 
 <ul>
-  <li>Mar 2026: Two paper is accepted by <b>ISCA 2026</b>.</li>
+  <li>Mar 2026: Two papers are accepted by <b>ISCA 2026</b>.</li>
   <li>Mar 2026: One paper received <b>Best of VLDB 2025</b>.</li>
   <li>Nov 2025: One paper is accepted by <b>HPCA 2026</b>.</li>
   <li>Aug 2025: One paper is accepted by <b>VLDB 2025</b>.</li>
