@@ -1,7 +1,7 @@
 ---
 layout: about
 title: ""
-author: "TAN Hongshi (谭洪仕)"
+author: "TAN Hongshi 谭洪仕"
 ---
 
 {% include main.md sticky='true' %}

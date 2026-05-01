@@ -1,5 +1,5 @@
 # Site settings
-title:           TAN Hongshi (谭洪仕)'s Homepage
+title:           TAN Hongshi 谭洪仕's Homepage
 description:    "Hongshi's Homepage"
 url:            "https://hongshitan.github.io"
 #baseurl:        "https://hongshitan.github.io/"
@@ -8,7 +8,7 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         TAN Hongshi (谭洪仕)
+  name:         TAN Hongshi
   url:          https://hongshitan.github.io
   email:        hongshi@comp.nus.edu.sg
 
