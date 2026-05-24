@@ -63,6 +63,7 @@ Hongshi was an embedded system engineer at <a href="https://www.dji.com/" style=
   <li>Mar 2026: One paper received <b>Best of VLDB 2025</b>.</li>
   <li>Nov 2025: One paper is accepted by <b>HPCA 2026</b>.</li>
   <li>Aug 2025: One paper is accepted by <b>VLDB 2025</b>.</li>
+  <li>Apr 2025: RTIMULib2 is part of the <b>NASA</b> software supply chain.</li>
   <li>Jan 2025: One paper is accepted by <b>SIGMOD 2025</b>.</li>
   <li>Aug 2024: Received NUS <a href="https://api.accredible.com/v1/auth/invite?code=e56fb17b77cd1f2e713d&credential_id=7851dbf2-0b03-4f28-8626-599d34d80293&url=https%3A%2F%2Fcredentials.nus.edu.sg%2F7851dbf2-0b03-4f28-8626-599d34d80293&ident=aeea3256-b51a-41f3-853a-ed0aae1dbd8d" style="color:#283747;"><b>Research Achievement Award</b></a>.</li>
   <li>Jun 2023: Invited to be <b>SIGMOD</b> ARI reviewer.</li>
