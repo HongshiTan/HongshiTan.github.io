@@ -6,7 +6,8 @@
 <br>
 Hongshi TAN currently is a Ph.D. student at the School of Computing, <b>National University of Singapore</b>, supervised by 
 Prof. <a href="https://www.comp.nus.edu.sg/~hebs/" style="color:#283747;"><b>Bingsheng He</b></a> and Prof. <a href="https://www.comp.nus.edu.sg/~wongwf/" style="color:#283747;"><b>Weng-Fai Wong</b></a>. 
-His research interests include high performance computing with special emphasis on FPGA-based heterogeneous systems for graph processing and graph representation learning.
+His research interests include high performance computing with special emphasis on FPGA-based heterogeneous systems for graph processing and machine learning.
+He also works closely with <a href="https://qizhenzhang.me" style="color:#283747;"><b>Qizhen Zhang</b></a> from the University of Toronto and <a href="https://people.inf.ethz.ch/alonso/" style="color:#283747;"><b>Gustavo Alonso</b></a> from ETH Zurich (ETHZ).
 <br>
 <br>
 He is a committee member of the NUS SoC Student Area Search Committee, and serves as the Student Lab Manager of the System & Network Lab.

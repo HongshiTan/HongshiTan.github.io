@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Efficient Graph Data Access for Out-of-Memory GPU Streaming Graph Processing"
+title: "Efficient Graph Data Access for Out-of-Memory GPU Streaming Graph Processing"
 author: "Qiange Wang, Yongze Yan, <b>Hongshi Tan</b>, Cheng Chen, Cheng Zhao, Jiaming Tian, Jiaxin Jiang"
 conf_full: "Very Large Data Bases."
 desp: "Full paper accepted by "
