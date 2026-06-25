@@ -3,8 +3,8 @@ title:           TAN Hongshi 谭洪仕's Homepage
 description:    "Hongshi's Homepage"
 url:            "https://hongshitan.github.io"
 #baseurl:        "https://hongshitan.github.io/"
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+# Google Analytics 4 — replace with your Measurement ID (looks like G-XXXXXXXXXX)
+google_analytics: G-H9JGMLNCW9
 
 # Author
 author:
