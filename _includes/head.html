@@ -9,6 +9,22 @@
 
   {% seo %}
 
+  {% if page.tags contains "Paper" %}
+  <!-- Google Scholar / Highwire Press citation tags -->
+  <meta name="citation_title" content="{{ page.title | strip_html | strip }}">
+  {% if page.authors %}{% for a in page.authors %}
+  <meta name="citation_author" content="{{ a }}">{% endfor %}{% endif %}
+  {% if page.date %}
+  <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">{% endif %}
+  {% if page.venue %}{% if page.venue_type == 'journal' %}
+  <meta name="citation_journal_title" content="{{ page.venue | strip_html | strip }}">{% else %}
+  <meta name="citation_conference_title" content="{{ page.venue | strip_html | strip }}">{% endif %}{% endif %}
+  {% if page.pdf %}
+  <meta name="citation_pdf_url" content="{{ page.pdf | absolute_url }}">{% endif %}
+  {% if page.doi %}
+  <meta name="citation_doi" content="{{ page.doi }}">{% endif %}
+  {% endif %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">

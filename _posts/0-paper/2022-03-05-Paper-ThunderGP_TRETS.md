@@ -6,6 +6,16 @@ conf_full: "ACM Transactions on Reconfigurable Technology and Systems."
 desp: "Invited journal paper accepted by "
 conf: "<b>ACM TRETS</b>."
 tags: "Paper"
+venue: "ACM Transactions on Reconfigurable Technology and Systems (TRETS)"
+venue_type: "journal"
+authors:
+  - "Xinyu Chen"
+  - "Feng Cheng"
+  - "Hongshi Tan"
+  - "Yao Chen"
+  - "Bingsheng He"
+  - "Weng-Fai Wong"
+  - "Deming Chen"
 ---
 
 ## Abstract

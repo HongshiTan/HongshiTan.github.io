@@ -6,6 +6,14 @@ conf_full: "The ACM Special Interest Group on Management of Data."
 desp: "Full paper accepted by "
 conf: "<b>SIGMOD'25</b>."
 tags: "Paper"
+venue: "Proceedings of the ACM on Management of Data (SIGMOD)"
+authors:
+  - "Feng Yu"
+  - "Hongshi Tan"
+  - "Xinyu Chen"
+  - "Yao Chen"
+  - "Bingsheng He"
+  - "Weng-Fai Wong"
 ---
 
 

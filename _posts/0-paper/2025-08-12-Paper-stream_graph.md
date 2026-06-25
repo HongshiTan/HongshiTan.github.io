@@ -6,6 +6,15 @@ conf_full: "Very Large Data Bases."
 desp: "Full paper accepted by "
 conf: "<b>VLDB'25</b>."
 tags: "Paper"
+venue: "Proceedings of the VLDB Endowment (VLDB)"
+authors:
+  - "Qiange Wang"
+  - "Yongze Yan"
+  - "Hongshi Tan"
+  - "Cheng Chen"
+  - "Cheng Zhao"
+  - "Jiaming Tian"
+  - "Jiaxin Jiang"
 ---
 
 

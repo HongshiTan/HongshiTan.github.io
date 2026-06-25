@@ -6,6 +6,14 @@ conf_full: "The ACM Special Interest Group on Management of Data."
 desp: "Full paper accepted by "
 conf: "<b>SIGMOD'23</b> (Acceptance rate: 28%)."
 tags: "Paper"
+venue: "Proceedings of the 2023 ACM SIGMOD International Conference on Management of Data"
+pdf: "/pdfs/SIGMOD23.pdf"
+authors:
+  - "Hongshi Tan"
+  - "Xinyu Chen"
+  - "Yao Chen"
+  - "Bingsheng He"
+  - "Weng-Fai Wong"
 ---
 
 

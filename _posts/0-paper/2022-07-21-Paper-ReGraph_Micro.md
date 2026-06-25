@@ -6,6 +6,14 @@ conf_full: "The International Symposium on Microarchitecture."
 desp: "Full paper accepted by "
 conf: "<b>MICRO'22</b> (Acceptance rate: 22%)."
 tags: "Paper"
+venue: "2022 55th IEEE/ACM International Symposium on Microarchitecture (MICRO)"
+authors:
+  - "Xinyu Chen"
+  - "Yao Chen"
+  - "Feng Cheng"
+  - "Hongshi Tan"
+  - "Bingsheng He"
+  - "Weng-Fai Wong"
 ---
 
 

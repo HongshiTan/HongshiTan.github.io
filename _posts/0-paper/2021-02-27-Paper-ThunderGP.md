@@ -6,6 +6,14 @@ conf_full: "The 29th ACM/SIGDA International Symposium on Field-Programmable Gat
 desp: "Full paper accepted by "
 conf: "<b>FPGA'21</b> (Acceptance rate: 20%)."
 tags: "Paper"
+venue: "The 2021 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)"
+authors:
+  - "Xinyu Chen"
+  - "Hongshi Tan"
+  - "Yao Chen"
+  - "Bingsheng He"
+  - "Weng-Fai Wong"
+  - "Deming Chen"
 ---
 
 ## Abstract

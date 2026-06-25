@@ -6,6 +6,15 @@ conf_full: "IEEE International Symposium on High-Performance Computer Architectu
 desp: "Full paper accepted by "
 conf: "<b>HPCA'26</b>."
 tags: "Paper"
+venue: "2026 IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
+authors:
+  - "Hongshi Tan"
+  - "Yao Chen"
+  - "Xinyu Chen"
+  - "Qizhen Zhang"
+  - "Cheng Chen"
+  - "Weng-Fai Wong"
+  - "Bingsheng He"
 ---
 
 

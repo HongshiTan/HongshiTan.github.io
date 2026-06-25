@@ -7,6 +7,16 @@ desp: "Demo paper accepted by "
 conf: "<b>ICDCS'20</b>."
 tags: "Paper"
 date: 2020-12-05
+venue: "2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)"
+authors:
+  - "Yao Chen"
+  - "Xin Long"
+  - "Jiong He"
+  - "Yuhang Chen"
+  - "Hongshi Tan"
+  - "Zhenxiang Zhang"
+  - "Marianne Winslett"
+  - "Deming Chen"
 ---
 
 ## Abstract
